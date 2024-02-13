@@ -166,6 +166,11 @@ hr{
 
 .footer-link{
     font-size: xx-large;
-    color: antiquewhite;
+    color: rgb(250, 235, 215);
     text-decoration: none;
+    transition: all 0.5s;
+}
+
+.footer-link:hover{
+    color: rgb(250, 210, 158);
 }
