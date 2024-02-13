@@ -1,0 +1,32 @@
+.comming{
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+h1{
+    font-size: 5rem;
+    text-shadow: 1px 1px 12px rgba(117, 117, 117, 0.466);
+}
+
+.comming-button{
+    padding: 15px;
+    background-color: rgb(61, 61, 61);
+    border: 0.4rem solid rgb(61, 61, 61);
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: antiquewhite;
+    transition: all 1s; 
+}
+
+.comming-button:hover{
+    background-color: rgb(22, 22, 22);
+    border: 0.4rem solid rgb(22, 22, 22);
+}
